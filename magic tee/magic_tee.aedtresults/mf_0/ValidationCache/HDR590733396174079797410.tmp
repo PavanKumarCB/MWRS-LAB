@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='a=\'2in\' b=\'0.90000000000000002in\' h=\'0.40000000000000002in\''
+		Status=true
+		FileName='VI590733396174079797411.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

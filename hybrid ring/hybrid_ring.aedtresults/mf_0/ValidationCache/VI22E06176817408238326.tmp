@@ -1,0 +1,10 @@
+<ValidationInfo>
+  <DesignValid>true</DesignValid>
+  <IgnoreUnclassifiedObjects>false</IgnoreUnclassifiedObjects>
+  <SkipIntersectionChecks>false</SkipIntersectionChecks>
+  <EntityCheckLevel>Strict</EntityCheckLevel>
+  <ValidationLevel>Perform full validations with standard port validations</ValidationLevel>
+  <Messages>
+    <Message>[warning] Warning - Boundary &apos;Open1&apos; and Boundary &apos;Rad1&apos; overlap.  </Message>
+  </Messages>
+</ValidationInfo>

@@ -1,0 +1,265 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000003, day=000000000001, hour=000000000015, min=000000000052, sec=000000000032)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000007518, lin=000000000244, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock9'
+	SimSetupID=164
+	SimSetupName='Setup1'
+	VersionID=299
+	$begin 'EmConvergenceData'
+		EmConv(VID=167, Ver=299, EmConv='DV167_S164_V299.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=167, Ver=299, Dir='DV167_S164_V299.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=35
+	$begin 'NextAssemVersionID'
+		NextUniqueID=36
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=6
+			ADP(VID=167, Ver=299, Dir='DV167_S164_ADP6_V299.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=167, Ver=299, File='DV167_S164_SD1_V299.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=167, Ver=299, File='DV167_S164_SD2_V299.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=167, Ver=299, File='DV167_S164_SD3_V299.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=167, Ver=299, File='DV167_S164_SD4_V299.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=167, Ver=299, File='DV167_S164_SD5_V299.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=167, Ver=299, File='DV167_S164_SD6_V299.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=167, Ver=299, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=167, Ver=299, P=6)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=167, Ver=299, File='DV167_S164_V299.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=167, Ver=299, Dir='DV167_S164_MI0_V299.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock9'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=164, Instance=\'SetupDefinition\', Solution=-1, VersionID=299)'='SolutionBlock9'
+	'SolutionKey(SimSetup=164, Instance=\'SolutionDefinition\', Solution=165, VersionID=305)'='SolutionBlock6'
+	'SolutionKey(SimSetup=164, Instance=\'SolutionDefinition\', Solution=166, VersionID=305)'='SolutionBlock7'
+	'SolutionKey(SimSetup=164, Instance=\'SolutionDefinition\', Solution=170, VersionID=305)'='SolutionBlock8'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=299
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=409
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='r1=\'17.52mm\' r2=\'15.9mm\'', ID=167)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=167, Ver=299, Dir='DV167_V299.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=174
+	$begin 'NextAssemVersionID'
+		NextUniqueID=175
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=173
+			VIDMap('', 359)
+			DM(VID=359, Ver=173, Dir='NDV359_V173.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=167, Ver=299, Dir='DV167_MI0_V299.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=300
+$end 'SolutionBlock1'
+$begin 'SolutionBlock7'
+	SolutionName='LastAdaptive'
+	SolutionID=166
+	V=305
+	$begin 'States'
+		F(VID=167, Ver=305)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(4000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=167, Ver=305, File='DV167_SOL166_M0_V305.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(364, 4000000000)
+		$begin 'DataMap'
+			VID=167
+			Ver=305
+			F(DblID=364, Dir='DV167_S166_V305_F364/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock7'
+$begin 'SolutionBlock6'
+	SolutionName='AdaptivePass'
+	SolutionID=165
+	V=305
+	$begin 'States'
+		F(VID=167, Ver=305)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(4000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=167, Ver=305, File='DV167_SOL165_M1_V305.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=167, Ver=305, File='DV167_SOL165_M2_V305.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=167, Ver=305, File='DV167_SOL165_M3_V305.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=167, Ver=305, File='DV167_SOL165_M4_V305.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=167, Ver=305, File='DV167_SOL165_M5_V305.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=167, Ver=305, File='DV167_SOL165_M6_V305.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock6'
+$begin 'SolutionBlock8'
+	SolutionName='Sweep'
+	SolutionID=170
+	V=305
+	$begin 'States'
+		F(VID=167, Ver=305)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000, 1100000000, 1200000000, 1300000000, 1400000000, 1500000000, 1600000000, 1700000000, 1800000000, 1900000000, 2000000000, 2100000000, 2200000000, 2300000000, 2400000000, 2500000000, 2600000000, 2700000000, 2800000000, 2900000000, 3000000000, 3100000000, 3200000000, 3300000000, 3400000000, 3500000000, 3600000000, 3700000000, 3800000000, 3900000000, 4000000000, 4100000000, 4200000000, 4300000000, 4400000000, 4500000000, 4600000000, 4700000000, 4800000000, 4900000000, 5000000000)
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=167, Ver=305, File='DV167_SOL170_M0_V305.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'TransientSolveStauts'
+		SS(VID=167, Ver=305, SS=1)
+	$end 'TransientSolveStauts'
+	$begin 'SolverUsage'
+		IDDblMap(384, 5000000000, 385, 1000000000, 386, 3000000000, 387, 2000000000, 389, 4500000000, 390, 3500000000, 391, 2500000000, 392, 1500000000, 393, 1250000000, 394, 3250000000, 395, 1750000000, 396, 2750000000, 397, 4750000000, 398, 4250000000, 399, 3750000000, 400, 1125000000, 401, 4875000000, 402, 4625000000, 403, 1375000000, 404, 1062500000)
+		$begin 'DataMap'
+			VID=167
+			Ver=305
+			SU(DblID=385, SU='DV167_S170_V305_F385_SU.txt')
+			SU(DblID=404, SU='DV167_S170_V305_F404_SU.txt')
+			SU(DblID=400, SU='DV167_S170_V305_F400_SU.txt')
+			SU(DblID=393, SU='DV167_S170_V305_F393_SU.txt')
+			SU(DblID=403, SU='DV167_S170_V305_F403_SU.txt')
+			SU(DblID=392, SU='DV167_S170_V305_F392_SU.txt')
+			SU(DblID=395, SU='DV167_S170_V305_F395_SU.txt')
+			SU(DblID=387, SU='DV167_S170_V305_F387_SU.txt')
+			SU(DblID=391, SU='DV167_S170_V305_F391_SU.txt')
+			SU(DblID=396, SU='DV167_S170_V305_F396_SU.txt')
+			SU(DblID=386, SU='DV167_S170_V305_F386_SU.txt')
+			SU(DblID=394, SU='DV167_S170_V305_F394_SU.txt')
+			SU(DblID=390, SU='DV167_S170_V305_F390_SU.txt')
+			SU(DblID=399, SU='DV167_S170_V305_F399_SU.txt')
+			SU(DblID=398, SU='DV167_S170_V305_F398_SU.txt')
+			SU(DblID=389, SU='DV167_S170_V305_F389_SU.txt')
+			SU(DblID=402, SU='DV167_S170_V305_F402_SU.txt')
+			SU(DblID=397, SU='DV167_S170_V305_F397_SU.txt')
+			SU(DblID=401, SU='DV167_S170_V305_F401_SU.txt')
+			SU(DblID=384, SU='DV167_S170_V305_F384_SU.txt')
+		$end 'DataMap'
+	$end 'SolverUsage'
+$end 'SolutionBlock8'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1950, lin=67, lvl=0)
+		SolutionBlock6(pos=3989, lin=144, lvl=0)
+		SolutionBlock7(pos=3325, lin=111, lvl=0)
+		SolutionBlock8(pos=4985, lin=189, lvl=0)
+		SolutionBlock9(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=2449, lin=74, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=7518, lin=244, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,40 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=26520
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\Ansys Student\\v242\\Win64\\ansysedtsv.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.0.107'
+			ListenPort='58970'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=26520
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.0.107'
+			ListenPort='58970'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=26520
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://DESKTOP-GBA4H9K:22758/?server=ws://DESKTOP-GBA4H9K:22246&token=f976d10b-5d12-95f8-1fa0-e49e36beaf2e&startTab=monitor/graph'
+		SecureUrl='https://DESKTOP-GBA4H9K:23014/?server=wss://DESKTOP-GBA4H9K:22502&token=f976d10b-5d12-95f8-1fa0-e49e36beaf2e&startTab=monitor/graph'
+		WsHost='DESKTOP-GBA4H9K'
+		WsPort=22246
+		WssPort=22502
+		Token='f976d10b-5d12-95f8-1fa0-e49e36beaf2e'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'
