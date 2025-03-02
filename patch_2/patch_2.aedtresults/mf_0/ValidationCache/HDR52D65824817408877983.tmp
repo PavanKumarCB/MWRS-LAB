@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='l=\'29.399999999999999mm\' w=\'38mm\''
+		Status=true
+		FileName='VI54CA58248174088795116.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'
